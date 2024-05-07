@@ -1,0 +1,66 @@
+.Hero {
+    margin-left: 165px;
+    margin-bottom: 141px;
+display: flex;
+
+
+
+.display{
+    margin-left: 165px;
+    
+}
+    .hero__title {
+        font-family: Hind Siliguri;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 35.57px;
+        text-align: left;
+        color: rgba(189, 189, 189, 1);
+        width: 172px;
+        height: 36px;
+        margin-bottom: -50px;
+        text-transform: uppercase;
+    }
+
+    .hero__info {
+        font-family: Hind Siliguri;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+        text-align: left;
+        width: 540px;
+        height: 288px;
+    }
+
+    .hero__description {
+        width: 540px;
+        height: 117px;
+        font-family: Hind Siliguri;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 38.81px;
+        text-align: left;
+        color: rgba(189, 189, 189, 1);
+        margin-top: -40px;
+    }
+
+    .hero__more {
+        font-family: Hind Siliguri;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: rgba(255, 114, 53, 1);
+        display: flex;
+        gap:12px;
+        
+    }
+
+    .hero__img {
+        width: 539px;
+        height: 433px;
+        margin-top: 80px;
+        left: 580px;
+        position: absolute;
+    }
+}

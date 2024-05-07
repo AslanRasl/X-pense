@@ -1,0 +1,89 @@
+.product {
+margin-left: 165px;
+margin-bottom: 100px;
+    .text {
+        display: flex;
+        align-items: center;
+        margin-left: 165px;
+        margin-bottom: 80px;
+    }
+
+    .title {
+
+        font-family: Hind Siliguri;
+        font-size: 96px;
+        font-weight: 700;
+        line-height: 96px;
+        text-align: left;
+        width: 730px;
+        height: 192px;
+
+
+    }
+    .item__title{
+        font-family: Hind Siliguri;
+font-size: 30px;
+font-weight: 500;
+line-height: 30px;
+text-align: center;
+
+    }
+    .item__subtitle{
+        font-family: Hind Siliguri;
+font-size: 14px;
+font-weight: 400;
+line-height: 22.64px;
+text-align: center;
+color: rgba(189, 189, 189, 1);
+width: 220px;
+margin-left: 65px;
+    }
+    .subtitle {
+
+        font-family: Hind Siliguri;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 38.81px;
+        text-align: left;
+        color: rgba(189, 189, 189, 1);
+        width: 350px;
+        height: 156px;
+
+    }
+
+    .hero__item {
+        display: flex;
+        gap: 30px;
+        margin-left: 250px;
+    }
+    .img{
+        margin-top: 63px;
+        width: 32px;
+    }
+    .hero4__item {
+        align-items: center;
+        text-align: center;
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+        width: 350px;
+        height: 350px;
+        border-radius: 12px;
+    }
+
+    .subimg1 {
+        background: rgba(255, 189, 116, 0.05);
+        border-radius: 50%;
+
+    }
+
+    .subimg2 {
+        background: rgba(226, 89, 139, 0.05);
+        border-radius: 50%;
+
+    }
+
+    .subimg3 {
+        background: rgba(77, 18, 238, 0.05);
+        border-radius: 50%;
+
+    }
+}

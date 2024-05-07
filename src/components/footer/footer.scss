@@ -1,0 +1,178 @@
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+.footer-text {
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+
+.footer-title {
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.footer-img {
+    width: 112px;
+    height: 40px;
+    top: 81px;
+    left: 165px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.footer__item__text {
+    list-style: none;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.footer-box {
+    margin-left: 178px;
+    text-align: center;
+}
+
+.footer-list {
+    list-style-type: none;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    margin-left: -38px;
+    cursor: pointer;
+}
+
+.footer-box1 {
+    margin-left: 123px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer-box2 {
+    margin-left: 148px;
+}
+
+.footer-title {
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    margin-top: 24px;
+}
+
+.footer-text1 {
+    font-family: Hind Siliguri;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 38.81px;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: -40px;
+}
+
+.footer-text2 {
+    font-family: Hind Siliguri;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32.34px;
+    text-align: left;
+    opacity: 0px;
+    color: #BDBDBD;
+
+}
+
+
+.footer-box3 {
+    width: 349px;
+    height: 62px;
+    top: 194px;
+    left: 925px;
+    gap: 0px;
+    border-radius: 8px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    justify-content: space-between;
+    border: 1px solid #292830
+}
+
+.footer-inp {
+    width: 210px;
+    height: 29px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border: none;
+    font-family: Hind Siliguri;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.footer-inp::-webkit-input-placeholder {
+    color: rgba(41, 40, 48, 1);
+}
+
+.footer-btn {
+    width: 102px;
+    height: 48px;
+    border-radius: 8px;
+    opacity: 0px;
+    background: #FF7235;
+    border: none;
+    color: white;
+    margin-right: 2px;
+    cursor: pointer;
+}
+
+
+
+
+.footer-box5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-bottom: 50px;
+}
+
+.footer__subimg {
+    height: 20px;
+    cursor: pointer;
+}
+
+.footer__text {
+    cursor: pointer;
+    margin-left: -400px;
+}
+.footer__text3 {
+    cursor: pointer;
+ 
+}
+.copyright{
+    cursor: pointer;
+}
