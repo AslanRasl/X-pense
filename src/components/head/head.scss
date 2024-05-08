@@ -50,7 +50,7 @@
         padding-left: 15px;
         margin-left: 300px;
         cursor: pointer;
-        
+        transition:0.8s;
     }
     .head__btn:hover{
         background-color: rgba(255, 114, 53, 1);
@@ -102,6 +102,7 @@
         align-items: center;
         display: flex;
         cursor: pointer;
+        transition:0.8s;
     }
     .head__subbtn:hover{
         background-color: transparent;
