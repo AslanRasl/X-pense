@@ -9,7 +9,10 @@
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+.container2{
+    max-width: 2000px;
+    margin: 0 auto;
+}
 .hero__sub {
     text-align: center;
     margin-left: 260px;
@@ -59,4 +62,10 @@
     text-align: center;
     margin-left: 850px;
     cursor: pointer;
+    transition:0.8s;
+}
+.btn__down:hover{
+    background-color:rgba(255, 114, 53, 1) ;
+    color: white;
+    transition: all ease 0.5s;
 }
