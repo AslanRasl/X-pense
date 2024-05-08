@@ -6,13 +6,15 @@
     .head__topp {
         display: flex;
         gap: 40px;
-        margin-left: 330px;
-        margin-right: 166px;
-        
+        margin-left: 165px;
+    }
+    .container{
+        max-width: 1600px;
+        margin: 0 auto;
     }
 
     .logo {
-        margin-right: 300px;
+        margin-right: 230px;
         cursor: pointer;
     }
 
@@ -26,7 +28,7 @@
     }
 
     .sub__head {
-        margin-left: 330px;
+        margin-left: 165px;
         margin-right: 166px;
         margin-bottom: 211px;
     }
@@ -130,7 +132,7 @@
     .girl {
         margin-top: -400px;
         right: 400px;
-        position: absolute;
+        margin-left: 50px;
     }
 
     .Product {
