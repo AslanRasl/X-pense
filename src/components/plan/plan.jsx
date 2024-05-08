@@ -5,7 +5,7 @@ import tick from "./tick.png"
 import "./plan.scss"
 function Plan() {
     return (
-      <div className="plan__hero container">
+      <div className="plan__hero container2">
         <h1 className="hero__title">Choose your flexible plan.</h1>
         <div className="plan__display">
 
