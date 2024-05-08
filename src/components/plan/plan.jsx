@@ -2,8 +2,6 @@ import photo1 from "./1.svg"
 import photo2 from "./2.svg"
 import photo3 from "./3.svg"
 import tick from "./tick.png"
-import RightOr from "./rightOr.png"
-import RightWh from "./rightWh.png"
 import "./plan.scss"
 function Plan() {
     return (
