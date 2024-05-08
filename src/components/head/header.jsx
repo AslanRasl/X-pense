@@ -5,9 +5,7 @@ import "./head.scss"
 function Header() {
   return (
     <div className="head__top">
-      
       <div className="head__topp">
-
         <img className="logo" src={Logo} alt="" />
         <p className="head__item">Features</p>
         <p className="head__item">About us</p>
@@ -21,12 +19,11 @@ function Header() {
         <div className="btn__text">
           <button className="head__subbtn">Try free demo⠀↓</button>
           <p className="head__description">— Web, iOS and Android</p>
-        <img className="girl" src={Girl} alt="" />
+          <img className="girl" src={Girl} alt="" />
         </div>
       </div>
-    <img className="Product" src={Product} alt="" />
-    
-    </div>  
+      <img className="Product" src={Product} alt="" />
+    </div>
   );
 }
 
