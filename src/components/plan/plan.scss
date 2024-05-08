@@ -102,7 +102,16 @@
         cursor: pointer;
         border: rgba(255, 114, 53, 1);
     }
-
+ .btn1:hover{
+        color: white;
+        background-color: rgba(255, 114, 53, 1);
+        transition: all ease 0.5s;
+    }
+    .btn2:hover{
+        color: rgba(255, 114, 53, 1);
+        background-color: white;
+        transition: all ease 0.5s;
+    }
     .year {
         font-family: Hind Siliguri;
         font-size: 20px;
