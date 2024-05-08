@@ -20,7 +20,7 @@ function Header() {
         <h1 className="head__title">Track your Expenses & Save Money</h1>
         <p className="head__subtitle">Helps you to organize your income and expenses</p>
         <div className="btn__text">
-          <button className="head__subbtn">Try free demo <img src={down} alt="" /></button>
+          <button className="head__subbtn">Try free demo⠀↓</button>
           <p className="head__description">— Web, iOS and Android</p>
         <img className="girl" src={Girl} alt="" />
         </div>
