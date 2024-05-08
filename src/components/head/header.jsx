@@ -1,7 +1,6 @@
 import Logo from "./Logo.svg"
 import Girl from "./girl.png"
 import Product from "./Product.png"
-import down from "./down.png"
 import "./head.scss"
 function Header() {
   return (
