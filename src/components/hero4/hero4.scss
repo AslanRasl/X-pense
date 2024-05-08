@@ -1,13 +1,18 @@
 .product {
 margin-left: 165px;
 margin-bottom: 100px;
+padding-bottom: 100px;
     .text {
         display: flex;
         align-items: center;
-        margin-left: 165px;
+        margin-left: 200px;
         margin-bottom: 80px;
     }
-
+    .container{
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+   
     .title {
 
         font-family: Hind Siliguri;
@@ -54,7 +59,7 @@ margin-left: 65px;
     .hero__item {
         display: flex;
         gap: 30px;
-        margin-left: 250px;
+        margin-left: 200px;
     }
     .img{
         margin-top: 63px;
