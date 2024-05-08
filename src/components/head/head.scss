@@ -50,7 +50,11 @@
         margin-left: 300px;
         cursor: pointer;
     }
-
+.head__btn:hover{
+        background-color: rgba(255, 114, 53, 1);
+        color: #fff;
+        transition: all ease 0.5s;
+    }
     .head__title {
         width: 540px;
         height: 288px;
