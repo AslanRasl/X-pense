@@ -3,6 +3,10 @@
     margin-bottom: 200px;
     margin-top: 149px;
 display: flex;
+.container{
+    max-width: 1600px;
+    margin: 0 auto;
+}
     .hero__title {
         font-family: Hind Siliguri;
         font-size: 22px;
