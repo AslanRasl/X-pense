@@ -1,7 +1,5 @@
 import Logo from "./Logo.svg"
 import Girl from "./girl.png"
-import Product from "./Product.png"
-
 import "./head.scss"
 function Header() {
   return (
@@ -26,9 +24,6 @@ function Header() {
         </div>
       </div>
       </div>
-
-      <img className="Product " src={Product} alt="" />
-
     </div>
   );
 }
