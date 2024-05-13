@@ -7,11 +7,13 @@ import Plan from './components/plan/plan';
 import Downloaded from './components/downloaded/downloaded';
 import Footer from './components/footer/footer';
 import Carousels from './components/Carousel';
+import Activities from './components/activities/activities';
 
 function App() {
   return (
     <div>
     <Header />
+      <Activities/>
       <Hero />
       <Hero2 />
       <Hero3 />

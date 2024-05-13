@@ -7,7 +7,9 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    
+    border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
 };
 .slide1{
     border-top: 10px solid yellow;
@@ -18,7 +20,9 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    
+     border-bottom: 1px solid rgba(245, 245, 245, 1);
+     border-left: 1px solid rgba(245, 245, 245, 1);
+     border-right: 1px solid rgba(245, 245, 245, 1);
 }
 .slide2{
     border-top: 10px solid blue;
@@ -29,7 +33,9 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    
+border-bottom: 1px solid rgba(245, 245, 245, 1);
+        border-left: 1px solid rgba(245, 245, 245, 1);
+        border-right: 1px solid rgba(245, 245, 245, 1);
 }
 .slide3{
     border-top: 10px solid rgb(0, 174, 255);
@@ -40,7 +46,9 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    
+     border-bottom: 1px solid rgba(245, 245, 245, 1);
+    border-left: 1px solid rgba(245, 245, 245, 1);
+    border-right: 1px solid rgba(245, 245, 245, 1);
 }
 .slide4{
     border-top: 10px solid brown;
@@ -51,8 +59,9 @@
 -khtml-user-select: none;
 -webkit-user-select: none;
 user-select: none;
-
-
+border-bottom: 1px solid rgba(245, 245, 245, 1);
+        border-left: 1px solid rgba(245, 245, 245, 1);
+        border-right: 1px solid rgba(245, 245, 245, 1);
 }
 
 .mySwiper{
@@ -101,8 +110,6 @@ margin: 0 auto;
 height: 145px;
 top: 26px;
 left: 28px;
-gap: 0px;
-opacity: 0px;
 font-family: Hind Siliguri;
 font-size: 18px;
 font-weight: 400;

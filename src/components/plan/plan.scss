@@ -1,116 +1,128 @@
-.plan__hero {
-    background: rgba(255, 250, 248, 1);
-    padding-top: 100px;
-    padding-bottom: 100px;
+    .plan__hero {
+        background: rgba(255, 250, 248, 1);
+        padding-top: 50px;
+        padding-bottom: 100px;
+        
 
-    .plan__display {
-        display: flex;
-        gap: 30px;
-        margin-left: 425px;
+        .container2{
+            max-width: 2000px;
+            margin: 0 auto;
+        }
+        .plan__display {
+            display: flex;
+            gap: 50px;
+            margin-left: 400px;
+        }
+
+        .plan__choose {
+            width: 350px;
+            height: 500px;
+            box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
+            border-radius: 12px;
+
+        }
+
+        .plan__img {
+            margin-top: 41px;
+            margin-left: 40px;
+        }
+
+        .hero__title {
+            font-family: Hind Siliguri;
+            font-size: 72px;
+            font-weight: 700;
+            line-height: 72px;
+            text-align: center;
+            margin-bottom: 100px;
+        }
+
+        .plan__title {
+            font-family: Hind Siliguri;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 51.74px;
+            text-align: left;
+            margin-left: 40px;
+        }
+
+        .plan__subtitle {
+            font-family: Hind Siliguri;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 29.11px;
+            text-align: left;
+            margin-left: 40px;
+        }
+
+        .plan__cost {
+            font-family: Hind Siliguri;
+            font-size: 24px;
+            font-weight: 600;
+            line-height: 38.81px;
+            text-align: left;
+            display: flex;
+            align-items: center;
+            margin-left: 40px;
+        }
+
+        .cost__sub {
+            margin-top: -40px;
+            font-family: Hind Siliguri;
+            font-size: 12px;
+            font-weight: 400;
+            line-height: 19.4px;
+            text-align: left;
+            margin-left: 40px;
+            color: rgba(189, 189, 189, 1);
+        }
+
+        .btn1 {
+            width:136px;
+            height:50px;
+            padding: 12px 24px 12px 24px;
+            border-radius: 8px;
+            border: 1px solid rgba(255, 114, 53, 1);
+            color: rgba(255, 114, 53, 1);
+            margin-left: 40px;
+            background-color: transparent;
+            cursor: pointer;
+            transition:0.8s;
+        }
+        .btn1:hover{
+            color: white;
+            background-color: rgba(255, 114, 53, 1);
+            transition: all ease 0.5s;
+        }
+        .btn2:hover{
+            color: rgba(255, 114, 53, 1);
+            background-color: white;
+            transition: all ease 0.5s;
+            border: 1px solid rgba(255, 114, 53, 1);
+        }
+
+        .btn2 {
+            background-color: rgba(255, 114, 53, 1);
+            border: none;
+            width: 136px;
+            height: 50px;
+            padding: 12px 24px 12px 24px;
+            border-radius: 8px;
+            color: white;
+            margin-left: 40px;
+            cursor: pointer;
+            transition:0.8s;
+        }
+
+        .year {
+            font-family: Hind Siliguri;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 32.34px;
+            text-align: left;
+            color: rgba(189, 189, 189, 1);
+        }
     }
-
-    .plan__choose {
-        width: 350px;
-        height: 500px;
-        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
-        border-radius: 12px;
-
+    .container3{
+        max-width: 1440px;
+        margin: 0 auto;
     }
-
-    .plan__img {
-        margin-top: 41px;
-        margin-left: 40px;
-    }
-
-    .hero__title {
-        font-family: Hind Siliguri;
-        font-size: 72px;
-        font-weight: 700;
-        line-height: 72px;
-        text-align: center;
-        margin-top: 124px;
-        margin-bottom: 100px;
-    }
-
-    .plan__title {
-        font-family: Hind Siliguri;
-        font-size: 32px;
-        font-weight: 600;
-        line-height: 51.74px;
-        text-align: left;
-        margin-left: 40px;
-    }
-
-    .plan__subtitle {
-        font-family: Hind Siliguri;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 29.11px;
-        text-align: left;
-        margin-left: 40px;
-    }
-
-    .plan__cost {
-        font-family: Hind Siliguri;
-        font-size: 24px;
-        font-weight: 600;
-        line-height: 38.81px;
-        text-align: left;
-        display: flex;
-        align-items: center;
-        margin-left: 40px;
-    }
-
-    .cost__sub {
-        margin-top: -40px;
-        font-family: Hind Siliguri;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 19.4px;
-        text-align: left;
-        margin-left: 40px;
-        color: rgba(189, 189, 189, 1);
-    }
-
-    .btn1 {
-        width:136px;
-        height:50px;
-        top: 390px;
-        left: 40px;
-        padding: 12px 24px 12px 24px;
-        gap: 10px;
-        border-radius: 8px;
-        border: 1px 0px 0px 0px;
-        border: 1px solid rgba(255, 114, 53, 1);
-         color: rgba(255, 114, 53, 1);
-        margin-left: 40px;
-        background-color: transparent;
-        cursor: pointer;
-    }
-
-    .btn2 {
-        background: rgba(255, 114, 53, 1);
-        border: 1px solid rgba(255, 114, 53, 1);
-        width: 136px;
-        height: 50px;
-        top: 390px;
-        left: 40px;
-        padding: 12px 24px 12px 24px;
-        gap: 10px;
-        border-radius: 8px;
-        border: 1px 0px 0px 0px;
-        opacity: 0px;
-        color: white;
-        margin-left: 40px;
-        cursor: pointer;
-    }
-
-    .year {
-        font-family: Hind Siliguri;
-        font-size: 20px;
-        font-weight: 300;
-        line-height: 32.34px;
-        text-align: left;
-        color: rgba(189, 189, 189, 1);
-    }
-}

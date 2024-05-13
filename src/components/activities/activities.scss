@@ -1,0 +1,29 @@
+.activ{
+    background: rgba(255, 114, 53, 1);
+    background-image: url(./back.png);
+    background-position: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding-top: 87px;
+}
+.activ__inner{
+    background-image: url(./overview.svg);
+    background-position: center top ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 625px;
+}
+.activ__list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 82px;
+    padding: 0;
+li{
+    cursor: pointer;
+}
+}
+.container3{
+    max-width: 1440px;
+    margin: 0 auto;
+}

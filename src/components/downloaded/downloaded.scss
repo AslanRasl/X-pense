@@ -1,19 +1,28 @@
 .hero__down {
     background: rgba(255, 114, 53, 1);
+    background-image:  url(back.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100%;
+
+}
+.hero__down__inner{
     height: 800px;
     text-align: center;
     padding-top: 120px;
-    background-image: url(people.svg), url(back.svg);
+    background-image: url(people.svg);
     background-repeat: no-repeat;
-    background-position: left, left;
+    background-position: left bottom 150px;
     background-size: 100%;
     background-repeat: no-repeat;
 }
-
+.container2{
+    max-width: 2000px;
+    margin: 0 auto;
+}
 .hero__sub {
     text-align: center;
     margin-left: 260px;
-
 }
 
 .title__down {
@@ -23,10 +32,6 @@
     line-height: 72px;
     color: white;
     text-align: center;
-    width: 920px;
-    height: 144px;
-    margin-left: 500px;
-    margin-top: 20px;
 }
 
 .subtitle__down {
@@ -38,9 +43,14 @@
 
 }
 
-
+.btn__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .btn__down {
+    align-items: center;
     width: 213px;
     height: 60px;
     padding: 18px 24px 18px 24px;
@@ -50,13 +60,15 @@
     font-size: 22px;
     font-weight: 400;
     line-height: 20.9px;
-    text-align: left;
     color: rgba(255, 114, 53, 1);
     background-color: white;
     border: none;
     display: flex;
-    align-items: center;
-    text-align: center;
-    margin-left: 850px;
     cursor: pointer;
+    transition:0.8s;
+}
+.btn__down:hover{
+    background-color:rgba(255, 114, 53, 1) ;
+    color: white;
+    transition: all ease 0.5s;
 }

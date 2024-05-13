@@ -10,7 +10,7 @@ function Footer() {
                 <div className="footer-box">
                     <p className='footer-text'>Links</p>
                     <ul className="footer-item">
-                        <li className="footer-list"> home</li>
+                        <li className="footer-list"> Home</li>
                         <li className="footer-list"> About us</li>
                         <li className="footer-list"> Careers</li>
                         <li className="footer-list"> Pricing</li>

@@ -4,7 +4,7 @@ import "./hero3.scss"
 
 function Hero3() {
     return (
-      <div className="Hero">
+      <div className="Hero container">
         <div className="display">
        <p className="hero__title" >Use anytime</p>
        <h2 className="hero__info" >Use anytime when you need  </h2>

@@ -1,14 +1,13 @@
 .Hero {
-    margin-left: 165px;
     margin-bottom: 141px;
+    padding-bottom: 100px;
 display: flex;
 
-
-
-.display{
-    margin-left: 165px;
-    
+.container{
+    max-width: 1600px;
+    margin: 0 auto; 
 }
+
     .hero__title {
         font-family: Hind Siliguri;
         font-size: 22px;
@@ -60,7 +59,6 @@ display: flex;
         width: 539px;
         height: 433px;
         margin-top: 80px;
-        left: 580px;
-        position: absolute;
+        left: -200px;
     }
 }

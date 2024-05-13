@@ -10,7 +10,8 @@ import './style.scss'
 const Carousels = () => {
     return (
       
-      <Swiper
+      <div className='carousel container'>
+        <Swiper
       slidesPerView={4}
       spaceBetween={30}
       pagination={{
@@ -92,6 +93,7 @@ const Carousels = () => {
         </SwiperSlide>
         
       </Swiper>
+      </div>
     )
 }
 export default Carousels

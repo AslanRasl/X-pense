@@ -1,11 +1,20 @@
 .product {
-margin-left: 165px;
-margin-bottom: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 250px;
+    padding-top: 100px;
+
     .text {
+        width: 1440px;
+        margin: 0 auto;
         display: flex;
         align-items: center;
-        margin-left: 165px;
+        justify-content: space-between;
         margin-bottom: 80px;
+    }
+
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
     }
 
     .title {
@@ -17,29 +26,31 @@ margin-bottom: 100px;
         text-align: left;
         width: 730px;
         height: 192px;
-
+        margin-left: -5px;
 
     }
-    .item__title{
+
+    .item__title {
         font-family: Hind Siliguri;
-font-size: 30px;
-font-weight: 500;
-line-height: 30px;
-text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
 
     }
-    .item__subtitle{
+
+    .item__subtitle {
         font-family: Hind Siliguri;
-font-size: 14px;
-font-weight: 400;
-line-height: 22.64px;
-text-align: center;
-color: rgba(189, 189, 189, 1);
-width: 220px;
-margin-left: 65px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 22.64px;
+        text-align: center;
+        color: rgba(189, 189, 189, 1);
+        width: 220px;
+        margin-left: 65px;
     }
+
     .subtitle {
-
         font-family: Hind Siliguri;
         font-size: 24px;
         font-weight: 400;
@@ -48,18 +59,21 @@ margin-left: 65px;
         color: rgba(189, 189, 189, 1);
         width: 350px;
         height: 156px;
+        margin-left: 50px;
 
     }
 
     .hero__item {
         display: flex;
-        gap: 30px;
-        margin-left: 250px;
+        gap: 50px;
+        margin-left: 115px;
     }
-    .img{
+
+    .img {
         margin-top: 63px;
         width: 32px;
     }
+
     .hero4__item {
         align-items: center;
         text-align: center;
@@ -67,6 +81,19 @@ margin-left: 65px;
         width: 350px;
         height: 350px;
         border-radius: 12px;
+        transition: all ease 0.5s;
+    }
+    .arrow__item{
+        display: none;
+        transition: all ease 0.5s;
+    }
+    .hero4__item:hover{
+        box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+        transform: scale(1.1);
+        .arrow__item{
+            display: block;
+            transition: all ease 0.5s;
+        }
     }
 
     .subimg1 {
