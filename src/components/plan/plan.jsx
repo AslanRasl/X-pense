@@ -5,8 +5,12 @@ import tick from "./tick.png"
 import "./plan.scss"
 function Plan() {
     return (
+<<<<<<< HEAD
       <div className="plan__hero">
         <div className="container2 plan__hero__inner">
+=======
+      <div className="plan__hero container2">
+>>>>>>> f00925c15272f1b0c6b32d3a09d4dca255d1c81a
         <h1 className="hero__title">Choose your flexible plan.</h1>
         <div className="plan__display container3">
 

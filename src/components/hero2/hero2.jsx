@@ -3,7 +3,7 @@ import right from "./right.png"
  import "./hero2.scss"
 function Hero2() {
     return (
-      <div className="hero">
+      <div className="hero container2">
 
        <div className="container2 hero__inner">
        <img className="hero__img" src={woman} alt="" />
