@@ -6,11 +6,9 @@ import "./hero4.scss"
 function Hero4() {
   return (
     <div className="product container">
-<<<<<<< HEAD
       <div className="text co">
-=======
       <div className="text">
->>>>>>> f00925c15272f1b0c6b32d3a09d4dca255d1c81a
+
         <h1 className="title">The Product we work with.</h1>
         <p className="subtitle">Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.</p>
       </div>
@@ -23,10 +21,9 @@ function Hero4() {
           </span>
           <h3 className="item__title">Cross platform</h3>
           <p className="item__subtitle">Elit esse cillum dolore eu fugiat nulla pariatur</p>
-<<<<<<< HEAD
+
           <p className="arrow__item">→</p>
-=======
->>>>>>> f00925c15272f1b0c6b32d3a09d4dca255d1c81a
+
         </div>
 
         <div className="hero4__item">
@@ -35,10 +32,9 @@ function Hero4() {
           </span>
           <h3 className="item__title">Cloud server</h3>
           <p className="item__subtitle">Elit esse cillum dolore eu fugiat nulla pariatur</p>
-<<<<<<< HEAD
+
           <p className="arrow__item">→</p>
-=======
->>>>>>> f00925c15272f1b0c6b32d3a09d4dca255d1c81a
+
         </div>
 
         <div className="hero4__item">
@@ -47,13 +43,13 @@ function Hero4() {
           </span>
           <h3 className="item__title">Pure Javascript</h3>
           <p className="item__subtitle">Elit esse cillum dolore eu fugiat nulla pariatur</p>
-<<<<<<< HEAD
+
           <p className="arrow__item">→</p>
-=======
->>>>>>> f00925c15272f1b0c6b32d3a09d4dca255d1c81a
+
         </div>
 
       </div>
+    </div>
     </div>
   );
 }
