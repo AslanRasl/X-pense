@@ -1,13 +1,14 @@
     .plan__hero {
         background: rgba(255, 250, 248, 1);
-        padding-top: 50px;
+        padding-top: 150px;
         padding-bottom: 100px;
-        
 
-        .container2{
+
+        .container2 {
             max-width: 2000px;
             margin: 0 auto;
         }
+
         .plan__display {
             display: flex;
             gap: 50px;
@@ -19,7 +20,12 @@
             height: 500px;
             box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.04);
             border-radius: 12px;
-
+            transition: all ease 0.5s;
+            
+        }
+        .plan__choose:hover {
+            box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+            transform: scale(1.1);
         }
 
         .plan__img {
@@ -77,8 +83,8 @@
         }
 
         .btn1 {
-            width:136px;
-            height:50px;
+            width: 136px;
+            height: 50px;
             padding: 12px 24px 12px 24px;
             border-radius: 8px;
             border: 1px solid rgba(255, 114, 53, 1);
@@ -86,14 +92,16 @@
             margin-left: 40px;
             background-color: transparent;
             cursor: pointer;
-            transition:0.8s;
+            transition: 0.8s;
         }
-        .btn1:hover{
+
+        .btn1:hover {
             color: white;
             background-color: rgba(255, 114, 53, 1);
             transition: all ease 0.5s;
         }
-        .btn2:hover{
+
+        .btn2:hover {
             color: rgba(255, 114, 53, 1);
             background-color: white;
             transition: all ease 0.5s;
@@ -110,7 +118,7 @@
             color: white;
             margin-left: 40px;
             cursor: pointer;
-            transition:0.8s;
+            transition: 0.8s;
         }
 
         .year {
@@ -122,7 +130,8 @@
             color: rgba(189, 189, 189, 1);
         }
     }
-    .container3{
+
+    .container3 {
         max-width: 1440px;
         margin: 0 auto;
     }

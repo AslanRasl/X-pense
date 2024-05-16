@@ -5,7 +5,7 @@ import "./hero4.scss"
 
 function Hero4() {
   return (
-    <div className="product container">
+    <div id="about"  className="product container">
       <div className="text co">
         <h1 className="title">The Product we work with.</h1>
         <p className="subtitle">Tellus lacus morbi sagittis lacus in. Amet nisl at mauris enim aumsan nisi, tincidunt vel. Enim ipsum, at quis ullamcorper eget ut.</p>

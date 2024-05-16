@@ -1,5 +1,6 @@
 import Logo from "./Logo.svg"
 import Girl from "./girl.png"
+import { Link } from "react-scroll";
 import "./head.scss"
 function Header() {
   return (
@@ -8,10 +9,46 @@ function Header() {
 
       <div className="head__topp ">
         <img className="logo" src={Logo} alt="" />
-        <p className="head__item">Features</p>
-        <p className="head__item">About us</p>
-        <p className="head__item">Pricing</p>
-        <p className="head__item">Feedback</p>
+        <Link
+            to="features"
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+            className="head__item"
+          >
+            Features
+          </Link>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+            className="head__item"
+          >
+            About us
+          </Link>
+          <Link
+            to="pricing"
+            spy={true}
+            smooth={true}
+            offset={100}
+            duration={500}
+            className="head__item"
+          >
+            Pricing
+          </Link>
+          <Link
+            to="feedback"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+            className="head__item"
+          >
+            Feedback
+          </Link>
         <button className="head__btn">Request a demo</button>
       </div>
       <div className="sub__head ">

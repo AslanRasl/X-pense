@@ -1,11 +1,35 @@
 import './footer.scss'
+import React, { useState } from 'react';
 import ago from './Logo.png'
 import social from "./social.png"
 
 function Footer() {
+    const [subscribed, setSubscribed] = useState(false);
+    const [error, setError] = useState('');
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        const email = event.target.elements.email.value;
+
+        if (!email || !isValidEmail(email)) {
+            setError('Ошибка: Пожалуйста, введите корректный email');
+            return;
+        }
+
+        setSubscribed(true);
+        setError('');
+
+        setTimeout(() => {
+            setSubscribed(false);
+        }, 4000);
+    };
+
+    const isValidEmail = (email) => {
+        return email.includes('@');
+    };
     return (
         <div className="container">
-            <div className="footer">
+            <div id='feedback' className="footer">
                 <img className='footer-img' src={ago} alt="" />
                 <div className="footer-box">
                     <p className='footer-text'>Links</p>
@@ -31,9 +55,20 @@ function Footer() {
                     <h1 className='footer-title'>Newsletter</h1>
                     <p className="footer-text2">Over 25000 people have subscribed</p>
                     <div className="footer-box3">
-                        <input type="text" className="footer-inp" placeholder='Enter your email' />
-                        <button className='footer-btn'>Subscribe</button>
-                        <p className='footer-text2'>We don’t sell your email and spam</p>
+                    <form onSubmit={handleSubmit}>
+                        <div className="footer-box3">
+                            <input type="text" id="email" className="footer-inp" placeholder='Enter your email' />
+                            <button className='footer-btn'>Subscribe</button>
+                            <p className='footer-text2'>We don’t sell your email and spam</p>
+                            {error && <div className="error-message">{error}</div>}
+                        </div>
+                    </form>
+                    {subscribed && (
+                        <div className="success-message">
+                            <p>Поздравляем, вы подписались!</p>
+                        </div>
+                    )}
+                        
                     </div>
                 </div>
             </div>

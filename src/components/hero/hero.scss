@@ -1,12 +1,15 @@
 .Hero {
-    margin-bottom: 141px;
     padding-bottom: 100px;
-display: flex;
+    display: flex;
 
-.container{
-    max-width: 1600px;
-    margin: 0 auto; 
+.hero__inner{
+    display: flex;
+    padding-top: 150px;
 }
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+    }
 
     .hero__title {
         font-family: Hind Siliguri;
@@ -51,8 +54,8 @@ display: flex;
         text-align: left;
         color: rgba(255, 114, 53, 1);
         display: flex;
-        gap:12px;
-        
+        gap: 12px;
+
     }
 
     .hero__img {

@@ -4,7 +4,8 @@ import "./hero.scss"
 
 function Hero() {
   return (
-    <div className="Hero container">
+    <div id="features" className="Hero container">
+      <div className="hero__inner">
       <div className="display">
         <p className="hero__title" >Alwalys online</p>
         <h2 className="hero__info" >Real-time support with cloud</h2>
@@ -12,6 +13,7 @@ function Hero() {
         <h3 className="hero__more" >Learn more <img src={right} alt="" /></h3>
       </div>
       <img className="hero__img" src={woman} alt="" />
+      </div>
     </div>
   );
 }

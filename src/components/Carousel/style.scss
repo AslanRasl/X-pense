@@ -10,7 +10,11 @@
     border-bottom: 1px solid rgba(245, 245, 245, 1);
     border-left: 1px solid rgba(245, 245, 245, 1);
     border-right: 1px solid rgba(245, 245, 245, 1);
-};
+    transition: all ease 0.5s;
+};.slide:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+            transform: scale(1.02);
+}
 .slide1{
     border-top: 10px solid yellow;
     border-radius: 10px;
@@ -23,6 +27,10 @@
      border-bottom: 1px solid rgba(245, 245, 245, 1);
      border-left: 1px solid rgba(245, 245, 245, 1);
      border-right: 1px solid rgba(245, 245, 245, 1);
+     transition: all ease 0.5s;
+}.slide1:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+            transform: scale(1.02);
 }
 .slide2{
     border-top: 10px solid blue;
@@ -36,6 +44,10 @@
 border-bottom: 1px solid rgba(245, 245, 245, 1);
         border-left: 1px solid rgba(245, 245, 245, 1);
         border-right: 1px solid rgba(245, 245, 245, 1);
+        transition: all ease 0.5s;
+}.slide2:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+            transform: scale(1.02);
 }
 .slide3{
     border-top: 10px solid rgb(0, 174, 255);
@@ -49,6 +61,10 @@ border-bottom: 1px solid rgba(245, 245, 245, 1);
      border-bottom: 1px solid rgba(245, 245, 245, 1);
     border-left: 1px solid rgba(245, 245, 245, 1);
     border-right: 1px solid rgba(245, 245, 245, 1);
+    transition: all ease 0.5s;
+}.slide3:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+            transform: scale(1.02);
 }
 .slide4{
     border-top: 10px solid brown;
@@ -62,6 +78,10 @@ user-select: none;
 border-bottom: 1px solid rgba(245, 245, 245, 1);
         border-left: 1px solid rgba(245, 245, 245, 1);
         border-right: 1px solid rgba(245, 245, 245, 1);
+        transition: all ease 0.5s;
+}.slide4:hover{
+    box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.139);
+            transform: scale(1.02);
 }
 
 .mySwiper{
